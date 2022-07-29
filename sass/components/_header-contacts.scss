@@ -1,0 +1,46 @@
+// Header site contacts
+
+.contacts-list {
+    display: flex;
+
+    height: 100%;
+
+    margin-left: auto;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.contacts-list__item {
+    min-width: 142px;
+
+    height: 100%;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.contacts-list__link {
+    display: inline-flex;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--secondary-text-color);
+
+    &:hover,
+    &:focus {
+        color: var(--site-accent-color);
+    }
+}
+
+.contacts-list__icon {
+    fill: currentColor;
+
+    margin-right: 10px;
+}

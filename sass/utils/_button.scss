@@ -1,0 +1,27 @@
+/* Buttons */
+.button {
+    padding: 10px 32px;
+    border-radius: 4px;
+
+    min-width: 200px;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    background-color: var(--site-accent-color);
+    color: var(--white-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

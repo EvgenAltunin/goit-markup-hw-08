@@ -1,0 +1,32 @@
+/* Footer social-networks */
+.footer-social-networks__title {
+
+    color: var(--white-text-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+
+}
+
+.social-network__link--inverted {
+    @extend .social-network__link;
+    color: var(--white-text-color);
+    background-color: var(--secondary-icon-color);
+}
+
+.social-network__link--inverted {
+    @extend .social-network__link;
+    fill: currentColor;
+
+    &:hover,
+    &:focus {
+    background-color: var(--site-accent-color);
+    }
+}
+

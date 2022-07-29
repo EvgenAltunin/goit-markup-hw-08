@@ -1,0 +1,21 @@
+/* Footer logo */
+.footer__logo-main {
+    @extend .logo-main;
+    display: block;
+    min-width: 145px;
+
+    width: 145px;
+
+    margin-bottom: 20px;
+    
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footer__logo__secondary {
+    @extend .logo__secondary;
+    color: var(--white-text-color);
+}
+
+
+

@@ -1,0 +1,58 @@
+/* Hero */
+
+.hero-section {
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: var(--secondary-site-color);
+    background-image:
+        linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hero-background.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+}
+
+.hero-section__title {
+    display: block;
+
+    max-width: 696px;
+
+    color: var(--white-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-section__button {
+    display: block;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 50px;
+    min-width: 216px;
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-color);
+        color: var(--site-accent-color);
+    }
+}
+
