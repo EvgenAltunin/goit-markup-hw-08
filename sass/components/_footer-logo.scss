@@ -2,6 +2,10 @@
 .footer__logo-main {
     @extend .logo-main;
     display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
     min-width: 145px;
 
     width: 145px;
@@ -10,9 +14,15 @@
     
     padding-top: 0;
     padding-bottom: 0;
+
+    @media screen and (min-width: 1200px) {
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
 }
 
-.footer__logo__secondary {
+.footer__logo-secondary {
     @extend .logo__secondary;
     color: var(--white-text-color);
 }

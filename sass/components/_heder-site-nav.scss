@@ -1,8 +1,16 @@
 /* Header site nav */
 
-.page-header__nav {
-    margin-left: 93px;
-    height: 100%;
+.header-nav {
+    display: none;   
+    
+    @media screen and (min-width: 768px) {
+        display: block;
+        
+        margin-left: 87px;
+    }
+
+    // margin-left: 93px;
+    // height: 100%;
 }
 
 .nav {
@@ -10,11 +18,15 @@
 }
 
 .nav__item {
-    margin-right: 50px;
-    
+    margin-right: 51px;
+
     &:last-child {
         margin: 0;
-    }
+    }     
+    
+
+ 
+
 }
 
 .nav__link,

@@ -1,0 +1,48 @@
+/* Header */
+
+.header {
+    border-bottom: 1px solid var(--header-border-bottom);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 767px) {
+
+        justify-content: space-between;
+
+    }
+
+
+}
+
+.mobile-menu-open-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+
+    background-color: var(--white-text-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--site-accent-color);
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.mobile-menu-open-button__icon {
+    fill: currentColor;
+}

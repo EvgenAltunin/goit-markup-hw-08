@@ -11,10 +11,12 @@
 @import './utils/body';
 
 // Header
-@import './layout/page-header';
+@import './components/header-mobile-menu';
+@import './layout/header';
 @import './components/logo';
 @import './components/heder-site-nav';
 @import './components/header-contacts';
+
 
 // Main
     // index.html
@@ -28,7 +30,7 @@
 @import './components/portfolio-filter';
 @import './components/projects-list';
 // Footer
-@import './layout/page-footer';
+@import './layout/footer';
 @import './components/footer-subscription-form';
 @import './components/footer-contacts';
 @import './components/footer-logo';
