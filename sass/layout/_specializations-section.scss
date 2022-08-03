@@ -1,14 +1,20 @@
 /* What we do (specializations section)*/
 
-.section--no-top-padding {
+.specializations-section {
     @extend .section;
-    padding-top: 0;
+
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+        
+        padding-top: 0;
+    }
+
 }
 
 .specializations {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin: -15px;
 }
 

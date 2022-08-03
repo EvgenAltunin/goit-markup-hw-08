@@ -15,7 +15,7 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="container header-container">
+        <div class="header-container">
             <a href="./index.html" class="logo-main">Web<span class="logo__secondary">Studio</span></a>
             <nav class="header-nav">
                 <ul class="nav">
@@ -60,15 +60,15 @@
     
     <!-- <main> -->
         <!-- Hero -->
-        <!-- <section class="hero-section">
+        <section class="hero-section">
             <div class="container">
                 <h1 class="hero-section__title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="button hero-section__button" data-modal-open>Заказать услугу</button>
             </div>
-        </section> -->
+        </section>
 
         <!-- Benefits -->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="hiden-title benefits">Наши преймущества</h2>
                 <ul class="benefits-list">
@@ -134,10 +134,10 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <!-- What we do -->
-        <!-- <section class="section section--no-top-padding">
+        <section class="section specializations-section">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="specializations">
@@ -162,16 +162,16 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <!-- Our team -->
-        <!-- <section class="section team-members__section">
+        <section class="section team-members__section">
             <div class="container team-members__container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team-members">
                     <li class="team-member">
                         <div class="team-member__item">
-                            <img class="team-member__img" src="./images/card_img_1.jpg" alt="Игорь Демьяненко" width="270" >
+                            <img class="team-member__img" src="./images/card_img_1.jpg" alt="Игорь Демьяненко" width="270">
                             <div class="team-member__description">
                                 <h3 class="team-member__name">Игорь Демьяненко</h3>
                                 <p class="team-member__position">Product Designer </p>
@@ -334,10 +334,10 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <!-- Regular customers -->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="section-title">Постоянные клиенты</h2>
                 <ul class="regular-customers">
@@ -401,12 +401,12 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
     </main>
 
     
     <!-- Modal -->
-    <!-- <div class="backdrop backdrop--is-hidden" data-modal>
+    <div class="backdrop backdrop--is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-exit-button" data-modal-close>
                 <svg class="modal-exit-button__icon" height="11" width="11">
@@ -457,7 +457,10 @@
                         <svg class="form-checkbox__icon" height="15" width="16">
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
-                        Соглашаюсь с рассылкой и принимаю &nbsp<a href="#" class="form-checkbox__link">Условия договора</a>
+                        <div class="form-checkbox__text-thumb">
+                            <span class="form-checkbox__text">Соглашаюсь с рассылкой и принимаю </span><a href="#" class="form-checkbox__link">Условия договора</a>
+                        </div>
+                        
                     </label>
                 </div>
                 <div class="form-submit-button">
@@ -466,7 +469,7 @@
                     
             </form>
         </div>
-    </div> -->
+    </div>
     
     <!-- Mobile menu -->
     <div class="mobile-menu-container js-menu-container" id="mobile-menu">
@@ -500,7 +503,6 @@
                         <span class="header-contacts-mobile__email">info@devstudio.com</span>
                     </a>
                 </li>
-            
             </ul>
             
             <ul class="header-socials-mobile">

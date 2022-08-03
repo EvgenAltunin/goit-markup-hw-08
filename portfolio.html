@@ -15,7 +15,7 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="container header-container">
+        <div class="header-container">
             <a href="./index.html" class="logo-main">Web<span class="logo__secondary">Studio</span></a>
             <nav class="header-nav">
                 <ul class="nav">
@@ -50,7 +50,7 @@
                 </li>
             </ul>
 
-            <button class="mobile-menu-open-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <button class="mobile-menu-open-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" aria-label="Mobile menu open">
                 <svg class="mobile-menu-open-button__icon" width="40" height="40">
                     <use href="./images/icons.svg#icon-mobile-menu"></use>
                 </svg>
@@ -60,7 +60,7 @@
 
     <main>
         <!-- Projects -->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="hiden-title">Фильтр проектов</h2>
                 <ul class="filter">
@@ -96,7 +96,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Технокряк</h3>
                                     <p class="project-card__type">Веб-сайт</p>
                                 </div>
@@ -117,7 +117,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Постер New Orlean vs Golden Star</h3>
                                     <p class="project-card__type">Дизайн</p>
                                 </div>                           
@@ -138,7 +138,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Ресторан Seafood</h3>
                                     <p class="project-card__type">Приложение</p>
                                 </div>                           
@@ -159,7 +159,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Проект Prime</h3>
                                     <p class="project-card__type">Маркетинг</p>
                                 </div>
@@ -180,7 +180,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Проект Boxes</h3>
                                     <p class="project-card__type">Приложение</p>
                                 </div>
@@ -201,7 +201,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Inspiration has no Borders</h3>
                                     <p class="project-card__type">Веб-сайт</p>
                                 </div>
@@ -222,7 +222,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Издание Limited Edition</h3>
                                     <p class="project-card__type">Дизайн</p>
                                 </div>
@@ -243,7 +243,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Проект LAB</h3>
                                     <p class="project-card__type">Маркетинг</p>
                                 </div>
@@ -264,7 +264,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="project-card__name">
+                                <div class="project-card__caption">
                                     <h3 class="project-card__title">Growing Business</h3>
                                     <p class="project-card__type">Приложение</p>
                                 </div>
@@ -274,12 +274,12 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <!-- Mobile menu -->
     <div class="mobile-menu-container js-menu-container" id="mobile-menu">
-        <button type="button" class="exit-button-mobile js-close-menu">
+        <button type="button" class="exit-button-mobile js-close-menu" aria-label="Mobile menu close">
             <svg class="exit-button__icon" height="18.67" width="18.67">
                 <use href="./images/icons.svg#icon-criss-cross"></use>
             </svg>

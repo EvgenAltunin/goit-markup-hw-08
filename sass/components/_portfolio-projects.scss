@@ -79,9 +79,10 @@
     color: var(--white-text-color);
 }
 
-.project-card__name {
+.project-card__caption { 
     padding: 20px 24px 20px 24px;
     border: 1px solid var(--card-border--color);
+    flex-grow: 1;
 }
 
 .project-card__title {

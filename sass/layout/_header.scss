@@ -5,13 +5,21 @@
 }
 
 .header-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
     display: flex;
     align-items: center;
 
     @media screen and (max-width: 767px) {
-
         justify-content: space-between;
 
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
     }
 
 

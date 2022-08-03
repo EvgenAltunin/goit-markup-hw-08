@@ -2,10 +2,18 @@
 
 .filter {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-
+    
     margin-bottom: 50px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+    }
 }
 
 .filter__item {
@@ -15,14 +23,19 @@
     &:last-child {
         margin-right: 0;
     } 
+
+
 }
 
 
 
 .filter__button {
     @extend .button;
-    min-height: 38px;
+
     min-width: 73px;
+    height: 38px;
+
+    padding: 6px 22px;
 
     min-width: 73px;
     box-shadow: none;
