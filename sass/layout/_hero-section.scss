@@ -1,7 +1,6 @@
 /* Hero */
 
 .hero-section {
-    max-width: 1600px;
     padding-top: 118px;
     padding-bottom: 118px;
 
@@ -13,15 +12,19 @@
         linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/hero-background.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
 
     background-position: center;
 
 
-
-
+    width: 100%;
+    height: 100%;
+    
     @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+
         padding-top: 200px;
         padding-bottom: 200px;
     }
