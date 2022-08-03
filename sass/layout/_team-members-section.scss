@@ -43,8 +43,25 @@
     }
 }
 
-.team-member__img {
+.team-member__img-thumb {
+    height: 100%;
+    
+    @media screen and (min-width: 480px) {
+        width: 450px;
+    }
 
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+}
+
+.team-member__img {
+    width: 100%;
+    height: 100%;
 }
 
 .team-member__description {
