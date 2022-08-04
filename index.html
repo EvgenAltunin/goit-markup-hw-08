@@ -13,6 +13,7 @@
 
 </head>
 <body>
+    
     <!-- Header -->
     <header class="header">
         <div class="header-container">
@@ -50,7 +51,7 @@
                 </li>              
             </ul>
 
-            <button class="mobile-menu-open-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <button class="mobile-menu-open-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu" aria-label="Mobile menu open">
                 <svg class="mobile-menu-open-button__icon" width="40" height="40">
                     <use href="./images/icons.svg#icon-mobile-menu"></use>
                 </svg>
@@ -59,6 +60,7 @@
     </header>
     
     <!-- <main> -->
+    <main>
         <!-- Hero -->
         <section class="hero-section">
             <div class="container">
@@ -143,19 +145,34 @@
                 <ul class="specializations">
                     <li class="specialization">
                         <div class="specialization__item">
-                            <img class="specialization__img" src="./images/box_1.jpg" alt="Написание кода" width="370" class="work">
+                            <img class="specialization__img"
+                                srcset="./images/specialization-img1-370@1x.jpg 1x, ./images/specialization-img1-370@2x.jpg 2x"
+                                src="./images/specialization-img1-370@1x.jpg"
+                                alt="Написание кода" 
+                                width="370" 
+                            />
                             <p class="specialization__description">Десктопные приложения</p>                            
                         </div>
                     </li>
                     <li class="specialization">
                         <div class="specialization__item">
-                            <img src="./images/box_2.jpg" alt="Создание дизайна" width="370" class="work">
+                            <img class="specialization__img"  
+                                srcset="./images/specialization-img2-370@1x.jpg 1x, ./images/specialization-img2-370@2x.jpg 2x" 
+                                src="./images/specialization-img2-370@1x.jpg" 
+                                alt="Создание дизайна" 
+                                width="370"
+                            />
                             <p class="specialization__description">Мобильные приложения</p>                            
                         </div>
                     </li>
                     <li class="specialization">
                         <div class="specialization__item">
-                            <img src="./images/box_3.jpg" alt="Выбор стиля" width="370" class="work">
+                            <img class="specialization__img" 
+                                srcset="./images/specialization-img3-370@1x.jpg 1x, ./images/specialization-img3-370@2x.jpg 2x"
+                                src="./images/specialization-img3-370@1x.jpg" 
+                                alt="Выбор стиля" 
+                                width="370"
+                            />
                             <p class="specialization__description">Дизайнерские решения</p>                            
                         </div>
 
@@ -172,7 +189,12 @@
                     <li class="team-member">
                         <div class="team-member__item">
                             <div class="team-member__img-thumb">
-                                <img class="team-member__img" src="./images/card_img_1.jpg" alt="Игорь Демьяненко" >
+                                <picture>
+                                    <source srcset="./images/team-member1-450@1x.jpg 1x, ./images/team-member1-450@2x.jpg 2x" media="(max-width: 767px)" type="image/jpg">
+                                    <source srcset="./images/team-member1-354@1x.jpg 1x, ./images/team-member1-354@2x.jpg 2x" media="(min-width: 768px)" type="image/jpg">
+                                    <source srcset="./images/team-member1-270@1x.jpg 1x, ./images/team-member1-270@2x.jpg 2x" media="(min-width: 1200px)" type="image/jpg">
+                                    <img class="team-member__img" src="./images/team-member1-270@1x.jpg" alt="Игорь Демьяненко"/>
+                                </picture>
                             </div>
                             <div class="team-member__description">
                                 <h3 class="team-member__name">Игорь Демьяненко</h3>
@@ -215,7 +237,15 @@
                     <li class="team-member">
                         <div class="team-member__item">
                             <div class="team-member__img-thumb">
-                                <img class="team-member__img" src="./images/card_img_2.jpg" alt="Ольга Репина"  >
+                                <picture>
+                                    <source srcset="./images/team-member2-450@1x.jpg 1x, ./images/team-member2-450@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpg">
+                                    <source srcset="./images/team-member2-354@1x.jpg 1x, ./images/team-member2-354@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpg">
+                                    <source srcset="./images/team-member2-270@1x.jpg 1x, ./images/team-member2-270@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpg">
+                                    <img class="team-member__img" src="./images/team-member2-270@1x.jpg" alt="Ольга Репина" />
+                                </picture>
                             </div>
                             <div class="team-member__description">
                                 <h3 class="team-member__name">Ольга Репина</h3>
@@ -258,7 +288,15 @@
                     <li class="team-member">
                         <div class="team-member__item">
                             <div class="team-member__img-thumb">
-                                <img class="team-member__img" src="./images/card_img_3.jpg" alt="Николай Тарасов"  >
+                                <picture>
+                                    <source srcset="./images/team-member3-450@1x.jpg 1x, ./images/team-member3-450@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpg">
+                                    <source srcset="./images/team-member3-354@1x.jpg 1x, ./images/team-member3-354@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpg">
+                                    <source srcset="./images/team-member3-270@1x.jpg 1x, ./images/team-member3-270@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpg">
+                                    <img class="team-member__img" src="./images/team-member3-270@1x.jpg" alt="Николай Тарасов" />
+                                </picture>
                             </div>
                             <div class="team-member__description">
                                 <h3 class="team-member__name">Николай Тарасов</h3>
@@ -301,9 +339,17 @@
                     <li class="team-member">
                         <div class="team-member__item">
                             <div class="team-member__img-thumb">
-
+                                <picture>
+                                    <source srcset="./images/team-member4-450@1x.jpg 1x, ./images/team-member4-450@2x.jpg 2x" media="(max-width: 767px)"
+                                        type="image/jpg">
+                                    <source srcset="./images/team-member4-354@1x.jpg 1x, ./images/team-member4-354@2x.jpg 2x" media="(min-width: 768px)"
+                                        type="image/jpg">
+                                    <source srcset="./images/team-member4-270@1x.jpg 1x, ./images/team-member4-270@2x.jpg 2x" media="(min-width: 1200px)"
+                                        type="image/jpg">
+                                    <img class="team-member__img" src="./images/team-member4-270@1x.jpg" alt="Михаил Ермаков" />
+                                </picture>
                             </div>
-                            <img class="team-member__img" src="./images/card_img_4.jpg" alt="Михаил Ермаков"  >
+
                             <div class="team-member__description">
                                 <h3 class="team-member__name">Михаил Ермаков</h3>
                                 <p class="team-member__position">UI Designer</p>
@@ -424,7 +470,7 @@
             </button>
 
             <form action="callback-form">
-                <legend class="callback-form__title">Оставте свои данные, мы вам перезвоним</legend>
+                <h2 class="callback-form__title">Оставте свои данные, мы вам перезвоним</h2>
                 <div class="form-field">
                     <label for="name" class="form-field__label">Имя</label>
                     <div class="form-field-inner">
@@ -466,9 +512,9 @@
                         <svg class="form-checkbox__icon" height="15" width="16">
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
-                        <div class="form-checkbox__text-thumb">
+                        <span class="form-checkbox__text-thumb">
                             <span class="form-checkbox__text">Соглашаюсь с рассылкой и принимаю </span><a href="#" class="form-checkbox__link">Условия договора</a>
-                        </div>
+                        </span>
                         
                     </label>
                 </div>
@@ -482,7 +528,7 @@
     
     <!-- Mobile menu -->
     <div class="mobile-menu-container js-menu-container" id="mobile-menu">
-        <button type="button" class="exit-button-mobile js-close-menu">
+        <button type="button" class="exit-button-mobile js-close-menu" aria-label="Mobile menu close">
             <svg class="exit-button__icon" height="18.67" width="18.67">
                 <use href="./images/icons.svg#icon-criss-cross"></use>
             </svg>
@@ -597,13 +643,13 @@
                     <label class="subscription-form__label">
                        <input class="subscription-form__input" type="email" name="email-subscription" id="email-subscription"
                             placeholder="E-mail">
-                        <button type="submit" class="button subscription-form__button">
-                            Подписаться
-                            <svg class="subscription-form__icon" height="24" width="24">
-                                <use href="./images/icons.svg#icon-send"></use>
-                            </svg>
-                        </button> 
                     </label>
+                    <button type="submit" class="button subscription-form__button">
+                        Подписаться
+                        <svg class="subscription-form__icon" height="24" width="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
                 </form>
             </div>
     

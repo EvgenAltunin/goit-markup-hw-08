@@ -11,16 +11,18 @@
 
 .subscription-form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    @media screen and (min-width: 768px) {
-        
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        align-items: baseline;
     }
 }
 
 .subscription-form__label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 
     
     @media screen and (min-width: 1200px) {
