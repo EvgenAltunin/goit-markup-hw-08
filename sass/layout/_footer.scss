@@ -10,7 +10,6 @@
     padding-left: 15px;
     padding-right: 15px;
 
-
     @media screen and (min-width: 768px) {
 
     }
@@ -22,9 +21,7 @@
     }
 }
 
-.footer-contacts-and-socials-thumb {
-
-    
+.footer-contacts-and-socials-thumb { 
     @media screen and (min-width: 768px) and (max-width: 1199px){
         display: flex;
         align-items: baseline;   
@@ -32,7 +29,6 @@
         
         margin-bottom: 60px;
     }
-
 
     @media screen and (min-width: 1200px) {
         display: flex;

@@ -49,21 +49,18 @@
     border-radius: 4px;
 }
 
-.benefit__title {
-    
+.benefit__title {  
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
     text-transform: uppercase;
     text-align: center;
 
-
     margin-bottom: 10px;
 
     @media screen and (min-width: 768px) {
         text-align: left;
-    }
-        
+    }     
 }
 
 .benefit__text {

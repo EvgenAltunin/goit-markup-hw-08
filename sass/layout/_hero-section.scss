@@ -69,14 +69,12 @@ $hero-image-gradient: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.
     color: var(--white-text-color);
   
     margin-bottom: 30px;  
-
-    
+ 
     @media screen and (min-width: 1200px) {
         max-width: 696px;
 
         font-size: 44px;
         line-height: 1.35;
-
     }
 }
 
@@ -96,4 +94,3 @@ $hero-image-gradient: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.
         color: var(--site-accent-color);
     }
 }
-

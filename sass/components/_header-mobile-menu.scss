@@ -134,9 +134,7 @@
 
 .header-socials-mobile {
     display: flex;
-    flex-wrap: wrap;
-
-    
+    flex-wrap: wrap;  
 }
 
 .header-socials-mobile__item {
@@ -144,8 +142,7 @@
     padding-right: 10px;
     &:not(:last-child) {
         border-right: 1px solid rgba(33, 33, 33, 0.2);
-    }
-  
+    } 
 }
 
 .header-socials-mobile__link {
@@ -159,5 +156,4 @@
     &:focus {
         color: var(--secondary-text-color);
     }
-
 }

@@ -13,6 +13,7 @@
 
 .project {
     display: flex;
+    
     margin: 15px;
     
     @media screen and (min-width: 480px) {
@@ -47,8 +48,6 @@
     position: relative;
     overflow: hidden;
     
-    height: 100%;
-
     @media screen and (min-width: 480px) {
         width: 450px;
     }
@@ -97,8 +96,7 @@
 
     @media screen and (min-width: 768px) and (max-width: 1199px){
         justify-content: flex-start;
-        padding-top: 49px;
-        
+        padding-top: 49px;    
     }
 }
 
@@ -114,7 +112,6 @@
         font-size: 18px;
         line-height: 1.55;
         letter-spacing: 0.03em;
-
     }
 }
 
@@ -125,8 +122,6 @@
 }
 
 .project-card__title {
-    
-
     color: var(--main-text-color);
     font-weight: 700;
     font-size: 18px;
