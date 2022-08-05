@@ -3,8 +3,10 @@
 // Backdrop and modal
 .backdrop {
     position: fixed;
+    
     top: 0;
     left: 0;
+
     width: 100vw;
     height: 100vh;
 
@@ -13,6 +15,7 @@
     transition-property: opacity, visibility, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
     
 }
 
@@ -36,8 +39,7 @@
 
     padding: 40px;
 
-    width: 100vw;
-
+    overflow-y: scroll;
 
     background-color: var(--main-site-color);
 
@@ -201,9 +203,6 @@
 
 
 // Modal form checkbox
-.form-checkbox {
-
-}
 
 .form-checkbox__input {
     appearance: none;
